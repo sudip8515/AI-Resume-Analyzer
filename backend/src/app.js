@@ -9,7 +9,7 @@ const app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin: "https://ai-resume-analyzer-frontend-o8pp.onrender.com",
+    origin: "https://ai-resume-analyzer-frontend-v9nf.onrender.com",
     credentials:true
 }))
 
